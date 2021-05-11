@@ -1,0 +1,7 @@
+el modulo "ts-node" es para desarrollo y permite ejecutar el proyecto de typescript sin necesidad de convertirlo.
+
+para ejecutar nodemon en este proyecto ejecutar: npx nodemon;  ya que el archivo de configuracion de nodemon se le 
+especifica que ejecute el comendo : npm run dev
+
+el moduo "ncp" copia las carpetas desde un acarpeta a otra, y esto es necesario ya que cuand se compila el codigo de ts a js,
+las carpetas "public" y "views" no se copian en el archivo destino con el ccodigo js
